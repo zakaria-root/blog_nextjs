@@ -9,13 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@portabletext/react": "^1.0.6",
     "@sanity/image-url": "^1.0.1",
     "dotenv": "^16.0.1",
     "mdb-react-ui-kit": "^3.0.0",
     "next": "12.1.6",
     "next-sanity": "^0.5.2",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-hook-form": "^7.32.2"
   },
   "devDependencies": {
     "eslint": "8.17.0",
