@@ -1,7 +1,7 @@
 
 
 import Head from "next/head"
-export default function Header() {
+export default function Header({children}) {
 
   return (
     <>
@@ -55,6 +55,7 @@ export default function Header() {
           </ul>
         </div>
       </nav>
+      {children}
     </>
 
 
