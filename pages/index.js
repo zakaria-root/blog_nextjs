@@ -7,7 +7,6 @@ import { urlFor } from "../sanity"
 import Link from "next/link"
 
 export default function Home({ posts }) {
-  console.log(posts)
   return (
     <div className={styles.container}>
     
